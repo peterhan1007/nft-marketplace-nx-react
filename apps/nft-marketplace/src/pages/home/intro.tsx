@@ -1,7 +1,7 @@
 import CustomButton from '../../components/button/CustomButton';
 import ScrollButton from '../../components/button/ScrollButton';
 
-const template = () => (
+const IntroTemplate = () => (
   <div>
     <p className="font-drone font-bold text-xl leading-8">$999.000</p>
     <p className="font-inter text-yellow font-medium text-sm pt-2">
@@ -27,10 +27,10 @@ const Intro = () => {
               anim id est laborum.
             </p>
             <div className="flex justify-between pt-10">
-              {template()}
-              {template()}
-              {template()}
-              {template()}
+              <IntroTemplate />
+              <IntroTemplate />
+              <IntroTemplate />
+              <IntroTemplate />
             </div>
           </div>
           <div className="flex pt-20">

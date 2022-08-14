@@ -1,19 +1,23 @@
+import './style.css';
+
 const PlayerItem = ({
   id,
   player,
   winnings,
   borderColor,
   avatarUrl,
+  opacity,
 }: {
   id: number;
   player: string;
   winnings: string;
   borderColor: string;
   avatarUrl: string;
+  opacity: number;
 }) => {
   return (
     <div
-      className={`rounded-md flex border-2 border-[${borderColor}] justify-between items-center mx-[80px] my-[15px] text-white`}
+      className={`rounded-md flex border-2 opacity-${opacity} border-[${borderColor}] justify-between items-center mx-[80px] my-[15px] text-white`}
     >
       <div className="leading-6 font-medium font-inter text-base mx-[60px] my-[28px]">
         {id}

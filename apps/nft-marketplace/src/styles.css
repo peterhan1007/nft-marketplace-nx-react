@@ -83,6 +83,20 @@ body {
   line-height: 24px;
 }
 
+.play-game-1 {
+  background: linear-gradient(91.47deg, #da458f -6%, #da34dd 113.05%);
+
+  border-radius: 4px;
+  width: 138px;
+  height: 42px;
+  font-size: 16px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .blur {
   backdrop-filter: blur(24px);
 }
@@ -128,7 +142,6 @@ body {
 }
 
 .container {
-  max-width: 1600px;
   height: 100%;
 }
 
@@ -144,7 +157,7 @@ body {
 }
 
 .play-right-back img {
-  height: 98%;
+  height: 100%;
 }
 
 .mt--140 {
@@ -153,4 +166,11 @@ body {
 
 #root {
   overflow: hidden;
+}
+
+.border {
+  border: solid 2px #fbc625;
+  border-top: none;
+  background-attachment: fixed;
+  border-image: linear-gradient(#fbc625) 0 100%;
 }
