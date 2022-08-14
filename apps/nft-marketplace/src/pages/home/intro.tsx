@@ -1,11 +1,20 @@
 import CustomButton from '../../components/button/CustomButton';
 import ScrollButton from '../../components/button/ScrollButton';
 
+const template = () => (
+  <div>
+    <p className="font-drone font-bold text-xl leading-8">$999.000</p>
+    <p className="font-inter text-yellow font-medium text-sm pt-2">
+      Active Shoulders
+    </p>
+  </div>
+);
+
 const Intro = () => {
   return (
     <>
       <div className="main-back flex items-center">
-        <div className="max-w-[590px] ml-[160px]">
+        <div className="max-w-[590px] px-2 lg:px-6 lg:px-8 max-w-7xl xl:ml-[320px]">
           <div>
             <h3 className="font-drone title-40-text text-yellow">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,55 +27,27 @@ const Intro = () => {
               anim id est laborum.
             </p>
             <div className="flex justify-between pt-10">
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
+              {template()}
+              {template()}
+              {template()}
+              {template()}
             </div>
           </div>
           <div className="flex pt-20">
             <div className="pr-5">
-              <CustomButton label="Play game" padding="py-[18px] px-[54px]" />
+              <CustomButton label="PLAY GAME" padding="py-[18px] px-[54px]" />
             </div>
             <div>
               <CustomButton
                 model="secondary"
-                label="learn more"
+                label="LEARN MORE"
                 padding="py-[18px] px-[54px]"
               />
             </div>
           </div>
         </div>
+        <ScrollButton />
       </div>
-      <ScrollButton />
     </>
   );
 };

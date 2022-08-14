@@ -2,12 +2,16 @@ import PlayerItem from '../../components/card/PlayerItem';
 
 const playRight = () => {
   return (
-    <div className="container m-auto mb-[120px] play-right-back">
-      <div className="flex sm:text-center sm:flex-col 2xl:flex-row">
-        <div className="ml-[80px] mt-[210px]">
+    <div className="container m-auto mb-[120px] play-right-back sm:justify-center flex bg-[url('/assets/images/right-now-background.png')] bg-no-repeat bg-bottom">
+      <div className="flex sm:text-center sm:flex-col xl:flex-row xl: flex">
+        <div className="ml-[80px] mt-[50px] lg:flex lg:justify-center xl:block">
           <p className="font-drone bold text-yellow text-[80px]">PLAY</p>
-          <p className="font-drone bold text-yellow text-[80px]">RIGHT</p>
-          <p className="font-drone bold text-yellow text-[80px]">NOW</p>
+          <p className="lg:pl-[20px] font-drone bold text-yellow text-[80px]">
+            RIGHT
+          </p>
+          <p className="lg:pl-[20px] font-drone bold text-yellow text-[80px]">
+            NOW
+          </p>
         </div>
         <img
           src="/assets/images/person_7.png"
@@ -15,17 +19,17 @@ const playRight = () => {
           width="541px"
           className="sm:m-auto"
         />
-        <div className="mt-[160px]">
+        <div>
           <div className="flex text-white mx-[80px] justify-between">
-            <div className="leading-6 font-medium font-inter text-base mx-[60px] my-[8px]">
+            <div className="leading-6 font-medium font-drone text-base mx-[60px] my-[8px]">
               #
             </div>
             <div className="flex items-center">
-              <div className="leading-6 font-medium font-inter text-base pl-2">
+              <div className="leading-6 font-medium font-drone text-base pl-2">
                 PLAYER
               </div>
             </div>
-            <div className="leading-6 font-medium font-inter text-base mx-[75px] my-[8px] flex">
+            <div className="leading-6 font-medium text-base mx-[75px] my-[8px] flex font-drone">
               WINNINGS
             </div>
           </div>

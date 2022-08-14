@@ -57,42 +57,42 @@ const Header = () => {
               <div className="flex space-x-4 font-drone text-[14px]">
                 <a
                   href="#"
-                  className="text-white block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-white block px-3 py-2 rounded-md font-medium focus:text-navbar"
                 >
                   HOME
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300  block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-gray-300  block px-3 py-2 rounded-md font-medium focus:text-navbar"
                 >
                   ABOUT US
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-gray-300 block px-3 py-2 rounded-md font-medium focus:text-navbar"
                 >
                   OUT TEAMS
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300  block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-gray-300  block px-3 py-2 rounded-md font-medium focus:text-navbar"
                 >
                   MARKETPLACE
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-gray-300 block px-3 py-2 rounded-md font-medium focus:text-navbar"
                 >
                   GOSQUID TOKEN
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 block px-3 py-2 rounded-md className font-medium focus:bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]"
+                  className="text-gray-300 block px-3 py-2 rounded-md font-medium focus:text-navbar "
                 >
                   WHITERPAPER
                 </a>
@@ -126,7 +126,7 @@ const Header = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 font-drone text-[14px]">
           <a
             href="#"
-            className="text-white block px-3 py-2 rounded-md className font-medium"
+            className="text-white block px-3 py-2 rounded-md className font-medium focus:change-color"
             aria-current="page"
           >
             HOME

@@ -2,7 +2,7 @@ import NewArrivalItem from '../../components/card/NewArrivalItem';
 
 const NewArrival = () => {
   return (
-    <div className="relative w-[100%] h-[275px]">
+    <div className="relative w-[100%] h-[275px] mt-[-15px]">
       <div className="absolute w-[100%] h-[300px] left-0 top-[-25px] bg-[url('/assets/images/yellowbg.png')] text-center">
         <div className="container m-auto flex items-center justify-between">
           <div>

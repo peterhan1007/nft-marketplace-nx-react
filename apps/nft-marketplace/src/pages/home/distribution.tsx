@@ -31,13 +31,13 @@ const Distribution = () => {
               </span>
             </div>
             <div className="mt-[25px]">
-              <span className="text-center front-drone text-[#FBC625] not-italic font-bold">
+              <span className="text-center font-drone text-[#FBC625] not-italic font-bold">
                 {contents[id]}
               </span>
             </div>
 
             <div>
-              <span className="text-center front-drone text-white not-italic font-bold text-xs">
+              <span className="text-center font-drone text-white not-italic font-bold text-xs">
                 $25,000,000
               </span>
             </div>
@@ -47,7 +47,7 @@ const Distribution = () => {
     );
   };
   return (
-    <div className="mt-[100px] mb-[200px]">
+    <div className="mt-[100px] mb-[100px]">
       <img src="/assets/images/vector-1.png" className="float-right" />
       <img src="/assets/images/vector-2.png" className="float-left pt-[60px]" />
       <img
@@ -59,9 +59,12 @@ const Distribution = () => {
         className="float-left pt-[460px]"
       />
 
-      <span className="flex justify-center items-center text-5xl text-[#FBC625] not-italic font-bold">
+      <span className="flex justify-center items-center text-5xl text-[#FBC625] not-italic font-drone">
         TOKEN DISTRIBUTION
       </span>
+      <div className="flex justify-center mt-[40px]">
+        <img src="/assets/images/underline.png " />
+      </div>
       <div className="mt-[100px] mr-[200px] ml-[200px] grid xl:grid-rows-2 lg:grid-rows-3 grid-flow-col gap-16 text-center pl-5 pt-5">
         {results()}
       </div>

@@ -7,19 +7,24 @@ const LoadOne = (name: string) => {
       classProperties = 'bg-first w-1/4 h-[680px] relative available bg-cover';
       break;
     case 'second':
-      classProperties = 'bg-second w-1/2 h-[340px] relative bg-cover available';
+      classProperties =
+        'bg-second w-1/2 h-[330px] relative bg-cover available ml-[20px]';
       break;
     case 'third':
-      classProperties = 'bg-third w-1/4 h-[340px] relative bg-cover available';
+      classProperties =
+        'bg-third w-1/4 h-[330px] relative bg-cover available ml-[20px] mt-[10px]';
       break;
     case 'fourth':
-      classProperties = 'bg-fourth w-1/4 h-[340px] relative bg-cover available';
+      classProperties =
+        'bg-fourth w-1/4 h-[330px] relative bg-cover available ml-[20px]';
       break;
     case 'fifth':
-      classProperties = 'bg-fifth w-1/4 h-[340px] relative bg-cover available';
+      classProperties =
+        'bg-fifth w-1/4 h-[330px] relative bg-cover available ml-[20px]';
       break;
     case 'sixth':
-      classProperties = 'bg-sixth w-1/4 h-[340px] relative bg-cover available';
+      classProperties =
+        'bg-sixth w-1/4 h-[330px] relative bg-cover available ml-[20px] mt-[10px]';
       break;
   }
   return (
@@ -27,7 +32,7 @@ const LoadOne = (name: string) => {
       {' '}
       <div className="flex justify-center">
         <span className="absolute front-drone text-white not-italic font-bold w-60 bottom-0 pr-3 mb-[100px] left-6">
-          LOREM IPSUM DOLOR SIT AMET.CONSECTETUR ADIPISCING ELIT.
+          LOREM IPSUM DOLOR SIT AMET ADIPISCING ELIT.
         </span>
       </div>
       <div className="flex justify-center">

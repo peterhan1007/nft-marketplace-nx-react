@@ -13,19 +13,19 @@ const Footer = () => {
           <h4 className="title-20-text">NAVIGATION</h4>
           <div className="flex flex-row header-16-medium-text mt-[40px]">
             <div className="mr-[40px]">
-              <p>Home</p>
-              <p>About us</p>
-              <p>Our team</p>
+              <p className="pb-3">Home</p>
+              <p className="pb-3">About us</p>
+              <p className="pb-3">Our team</p>
             </div>
             <div className="mr-[40px]">
-              <p>Whitepaper</p>
-              <p>Marketplace</p>
-              <p>Roadmap</p>
+              <p className="pb-3">Whitepaper</p>
+              <p className="pb-3">Marketplace</p>
+              <p className="pb-3">Roadmap</p>
             </div>
             <div className="mr-[40px]">
-              <p>FAQs</p>
-              <p>News</p>
-              <p>Community</p>
+              <p className="pb-3">FAQs</p>
+              <p className="pb-3">News</p>
+              <p className="pb-3">Community</p>
             </div>
           </div>
           <div className="mt-[72px]">
@@ -48,8 +48,8 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h4 className="title-20-text">CONTACT US</h4>
-          <div className="flex flex-row items-center gap-[9px]">
+          <h4 className="title-20-text pb-9">CONTACT US</h4>
+          <div className="flex flex-row items-center gap-[9px] pb-3">
             <svg
               width="16"
               height="16"
